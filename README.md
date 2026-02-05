@@ -1,9 +1,27 @@
-# UAS_Sistem-Mikroprosessor_Smart-Lamp-ESP32_23552011203_Farhandhika-Nurrohman
+# 💡 Smart Lamp ESP32  
+**UAS Sistem Mikroprosesor**  
+**Farhandhika Nurrohman | 23552011203**
 
-Proyek ini merupakan implementasi Smart Lamp berbasis ESP32 yang dirancang untuk mendemonstrasikan penerapan konsep Sistem Mikroprosesor secara komprehensif. Sistem mendukung pengendalian lampu melalui tombol fisik (local control) dan perintah jarak jauh (remote control) menggunakan koneksi WiFi dan protokol MQTT.
+---
 
-Arsitektur sistem memanfaatkan ESP32 dual-core dengan FreeRTOS untuk menjalankan proses secara paralel. Tugas pengolahan perangkat keras dan komunikasi jaringan dipisahkan ke dalam task yang berjalan pada core berbeda, sehingga sistem tetap responsif dan stabil.
+## 📌 Deskripsi
+Proyek ini merupakan implementasi **Smart Lamp berbasis ESP32** yang mendukung kontrol **lokal** melalui tombol fisik dan **remote** melalui **WiFi dan protokol MQTT**. Sistem dirancang untuk menerapkan konsep inti **Sistem Mikroprosesor** secara efisien, responsif, dan stabil.
 
-Input tombol ditangani menggunakan external interrupt untuk efisiensi CPU, sementara pengaturan intensitas cahaya LED dilakukan melalui PWM (Pulse Width Modulation) dengan algoritma soft dimming agar transisi cahaya berlangsung halus. Sistem juga menerapkan Non-Volatile Storage (NVS) menggunakan library Preferences untuk menyimpan nilai kecerahan terakhir, sehingga data tetap tersedia meskipun perangkat dimatikan.
+Arsitektur sistem memanfaatkan **ESP32 dual-core** dengan **FreeRTOS** untuk memisahkan proses hardware dan komunikasi jaringan. Input tombol ditangani menggunakan **external interrupt**, sementara kecerahan LED dikontrol menggunakan **PWM** dengan algoritma *soft dimming*. Nilai kecerahan disimpan menggunakan **Non-Volatile Storage (NVS)** agar tetap tersimpan setelah perangkat dimatikan.
 
-Proyek ini menampilkan integrasi antara manajemen proses, input/output, memori, dan komunikasi jaringan, sehingga cocok digunakan sebagai referensi atau dokumentasi pembelajaran pada mata kuliah Sistem Mikroprosesor.
+---
+
+## 🛠️ Teknologi
+- ESP32 Dual Core  
+- FreeRTOS  
+- External Interrupt  
+- PWM (Pulse Width Modulation)  
+- WiFi  
+- MQTT  
+- JSON  
+- Non-Volatile Storage (Preferences)
+
+---
+
+## 🎥 Video Demo
+👉 https://youtu.be/ISI_LINK_VIDEO_DEMO
