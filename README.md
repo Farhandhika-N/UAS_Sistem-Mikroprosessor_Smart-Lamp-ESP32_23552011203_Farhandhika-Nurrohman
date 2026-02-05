@@ -24,4 +24,4 @@ Arsitektur sistem memanfaatkan **ESP32 dual-core** dengan **FreeRTOS** untuk mem
 ---
 
 ## 🎥 Video Demo
-👉 https://youtu.be/ISI_LINK_VIDEO_DEMO
+👉 (https://youtu.be/bhtpUIJQhmc)
